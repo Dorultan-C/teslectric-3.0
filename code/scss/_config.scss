@@ -3,7 +3,13 @@ $secondary-color: #322550;
 $accent-color: #ff3400;
 $body-color: #918ca4;
 $body-color-darker: #5c5577;
+$text-color: #fff;
 $border-radius: 30px;
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
 
 * {
   box-sizing: border-box;

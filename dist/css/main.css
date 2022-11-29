@@ -4,6 +4,54 @@
   padding: 0;
 }
 
+.contact-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+  float: right;
+  line-height: 1em;
+  padding-right: 25px;
+  background-color: red;
+  width: 100vw;
+  height: 5vh;
+  border: 2px solid black;
+  margin-top: 0;
+}
+
+header {
+  height: 400px;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50PX;
+}
+
+footer {
+  background-color: rgb(13, 99, 70);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 body {
   background: #272727;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+p, h1, h2, h3 {
+  color: #fff;
+  font-weight: 400;
 }

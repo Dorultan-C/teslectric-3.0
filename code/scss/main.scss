@@ -3,4 +3,21 @@
 
 body {
   background: $primary-color;
+  // height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
 }
+a {
+  text-decoration: none;
+  color: $text-color;
+  font-weight: map-get($map: $font-weights, $key: regular);
+
+}
+
+p, h1, h2, h3 {
+  color: $text-color;
+  font-weight: map-get($map: $font-weights, $key: regular);
+}
+
+
+
