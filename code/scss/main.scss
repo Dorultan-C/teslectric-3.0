@@ -14,7 +14,7 @@ a {
 
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, h4 {
   color: $text-color;
   font-weight: map-get($map: $font-weights, $key: regular);
 }

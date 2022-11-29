@@ -9,15 +9,12 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  margin: 10px;
   float: right;
   line-height: 1em;
   padding-right: 25px;
   background-color: red;
   width: 100vw;
   height: 5vh;
-  border: 2px solid black;
-  margin-top: 0;
 }
 
 header {
@@ -32,11 +29,34 @@ header {
 
 footer {
   background-color: rgb(13, 99, 70);
-  height: 500px;
+  height: 250px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+footer .contact-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 2;
+  line-height: 1.5;
+}
+footer .contact-footer h3 {
+  font-size: 1.5rem;
+}
+footer .contact-footer p {
+  display: flex;
+  color: pink;
+  margin-top: 50px;
+}
+footer .footer-social {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+footer .footer-social li {
+  margin: 5px 20px;
 }
 
 body {
@@ -51,7 +71,7 @@ a {
   font-weight: 400;
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, h4 {
   color: #fff;
   font-weight: 400;
 }
