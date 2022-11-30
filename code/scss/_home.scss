@@ -22,12 +22,19 @@ header {
 }
 
 footer {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(88, 45, 45);
   height: 250px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  .logo-footer {
+    width: 245px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(17, 13, 13);
+  }
 
   .contact-footer {
   display: flex;

@@ -12,13 +12,13 @@
   float: right;
   line-height: 1em;
   padding-right: 25px;
-  background-color: red;
+  background-color: rgb(136, 33, 143);
   width: 100vw;
   height: 5vh;
 }
 
 header {
-  height: 400px;
+  height: 300px;
   width: 100%;
   background-color: brown;
   display: flex;
@@ -28,12 +28,18 @@ header {
 }
 
 footer {
-  background-color: rgb(13, 99, 70);
+  background-color: rgb(88, 45, 45);
   height: 250px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+footer .logo-footer {
+  width: 245px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(17, 13, 13);
 }
 footer .contact-footer {
   display: flex;
