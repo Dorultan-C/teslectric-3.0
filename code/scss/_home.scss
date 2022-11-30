@@ -19,6 +19,13 @@ header {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 50PX;
+
+  .logo-header {
+    height: 295px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(17, 13, 13);
+  }
 }
 
 footer {
