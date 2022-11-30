@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .contact-header {
   display: flex;
   flex-direction: row;
@@ -28,35 +34,44 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-  .contact-footer {
+}
+footer .contact-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 2;
   line-height: 1.5;
-
-  h3 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    display: flex;
-    color: pink;
-    margin-top: 50px;
-  }
-  }
-  
-  .footer-social {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    
-    li {
-      margin: 5px 20px;
-      
-    }
-  }
+}
+footer .contact-footer h3 {
+  font-size: 1.5rem;
+}
+footer .contact-footer p {
+  display: flex;
+  color: pink;
+  margin-top: 50px;
+}
+footer .footer-social {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+footer .footer-social li {
+  margin: 5px 20px;
 }
 
+body {
+  background: #272727;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
 
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+p, h1, h2, h3, h4 {
+  color: #fff;
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */
