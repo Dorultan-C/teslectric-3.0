@@ -9,11 +9,6 @@
   background-color: rgb(136, 33, 143);
   width: 100vw;
   height: 5vh;
-  
-
-  .contact-header-individual {
-    margin: 0 5px;
-  }
 }
 
 header {
@@ -32,6 +27,7 @@ header {
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgb(17, 13, 13);
   }
+<<<<<<< HEAD
   .menu-nav {
     display: flex;
     justify-content: space-between;
@@ -44,9 +40,9 @@ header {
     }
   }
 
+=======
+>>>>>>> parent of b873765 (navbar spaceing / styling)
 }
-
-  
 
 footer {
   background-color: rgb(88, 45, 45);
@@ -76,7 +72,7 @@ footer {
 
   p {
     display: flex;
-    color: $text-color;
+    color: pink;
     margin-top: 50px;
   }
   }
@@ -86,13 +82,9 @@ footer {
     flex-direction: column;
     list-style-type: none;
     
-
     li {
       margin: 5px 20px;
-
-      a {
-        color: $text-color;
-      }
+      
     }
   }
 }

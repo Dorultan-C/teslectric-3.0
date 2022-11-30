@@ -16,9 +16,6 @@
   width: 100vw;
   height: 5vh;
 }
-.contact-header .contact-header-individual {
-  margin: 0 5px;
-}
 
 header {
   height: 300px;
@@ -35,6 +32,7 @@ header .logo-header {
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgb(17, 13, 13);
 }
+<<<<<<< HEAD
 header .menu-nav {
   display: flex;
   justify-content: space-between;
@@ -45,6 +43,8 @@ header .menu-nav .menu-nav__item {
   margin: 30px;
   font-size: 1.5rem;
 }
+=======
+>>>>>>> parent of b873765 (navbar spaceing / styling)
 
 footer {
   background-color: rgb(88, 45, 45);
@@ -72,7 +72,7 @@ footer .contact-footer h3 {
 }
 footer .contact-footer p {
   display: flex;
-  color: #fff;
+  color: pink;
   margin-top: 50px;
 }
 footer .footer-social {
@@ -82,9 +82,6 @@ footer .footer-social {
 }
 footer .footer-social li {
   margin: 5px 20px;
-}
-footer .footer-social li a {
-  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
