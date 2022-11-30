@@ -32,7 +32,6 @@ header .logo-header {
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgb(17, 13, 13);
 }
-<<<<<<< HEAD
 header .menu-nav {
   display: flex;
   justify-content: space-between;
@@ -43,8 +42,6 @@ header .menu-nav .menu-nav__item {
   margin: 30px;
   font-size: 1.5rem;
 }
-=======
->>>>>>> parent of b873765 (navbar spaceing / styling)
 
 footer {
   background-color: rgb(88, 45, 45);
