@@ -9,6 +9,11 @@
   background-color: rgb(136, 33, 143);
   width: 100vw;
   height: 5vh;
+  
+
+  .contact-header-individual {
+    margin: 0 5px;
+  }
 }
 
 header {
@@ -26,7 +31,21 @@ header {
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgb(17, 13, 13);
   }
+  .navlinks {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 5px;
+
+    .nav-individual {
+      margin: 30px;
+      font-size: 1.5rem;
+    }
+  }
+
 }
+
+  
 
 footer {
   background-color: rgb(88, 45, 45);
@@ -56,7 +75,7 @@ footer {
 
   p {
     display: flex;
-    color: pink;
+    color: $text-color;
     margin-top: 50px;
   }
   }
@@ -66,9 +85,13 @@ footer {
     flex-direction: column;
     list-style-type: none;
     
+
     li {
       margin: 5px 20px;
-      
+
+      a {
+        color: $text-color;
+      }
     }
   }
 }
