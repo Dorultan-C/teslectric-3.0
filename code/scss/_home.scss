@@ -24,20 +24,21 @@ header {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 50PX;
+  
 
   .logo-header {
     height: 295px;
-    margin: 5px;
+    margin-left: 0;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgb(17, 13, 13);
   }
-  .navlinks {
+  .menu-nav {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     margin: 5px;
 
-    .nav-individual {
+    .menu-nav__item {
       margin: 30px;
       font-size: 1.5rem;
     }
